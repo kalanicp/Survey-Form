@@ -35,7 +35,7 @@ fieldset{
 div{
     margin-left: auto;
     margin-right: auto;
-    width: 70%; /*this makes the size of the form in the entire page*/
+    width: 75%; /*this makes the size of the form in the entire page*/
     background-color: rgb(22, 80, 128);
     border: none;
     color: rgb(230, 221, 221);
@@ -76,7 +76,7 @@ input[type="text"], input[type="number"], input[type="email"], input[type="texta
     height: 25px;
     margin-top: none;
     margin-bottom: 13px;
-    width: 100%; /*making the inputs' width same as the form width*/
+    width: 90%; /*making the inputs' width same as the form width*/
 }
 
 /*changing the backgrond color of the dropdown menu*/
