@@ -56,7 +56,7 @@ div{
 input[type="submit"] {
     display: block; /*this is the type of the button. it's a block type button*/
     width: 5%;
-    margin: 1em auto; /*this makes the submit button center*/
+    margin: auto auto; /*this makes the submit button center*/
     height: 1.5em;
     font-size: 1rem;
     background-color: rgb(22, 80, 128);
