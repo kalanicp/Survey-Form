@@ -56,7 +56,7 @@ div{
 input[type="submit"] {
     display: block; /*this is the type of the button. it's a block type button*/
     width: 5%;
-    margin: auto auto; /*this makes the submit button center*/
+    margin: 1em auto; /*this makes the submit button center*/
     height: 1.5em;
     font-size: 1rem;
     background-color: rgb(22, 80, 128);
@@ -76,7 +76,7 @@ input[type="text"], input[type="number"], input[type="email"], input[type="texta
     height: 25px;
     margin-top: none;
     margin-bottom: 13px;
-    width: 90%; /*making the inputs' width same as the form width*/
+    width: 100%; /*making the inputs' width same as the form width*/
 }
 
 /*changing the backgrond color of the dropdown menu*/
