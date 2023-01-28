@@ -88,7 +88,7 @@ input[type="number"]{
     height: 25px;
     margin-top: none;
     margin-bottom: 13px;
-    width: 8%; /*making the inputs' width 6% the form total width*/
+    width: 15%; /*making the inputs' width 6% the form total width*/
     font-family: Garamond;
     font-size: 15px;
 }
