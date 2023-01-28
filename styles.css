@@ -1,0 +1,119 @@
+body{
+    background-image: url(wallpaper.jpg);
+}
+
+h1, p{
+    text-align: center;
+    color: rgb(230, 221, 221)
+}
+
+/*design of only p(paragraph)*/
+p{
+    margin-bottom: 27px;
+    margin-top: 5px;
+    font-family: Courier;
+}
+
+/*design of only h1 heaing*/
+h1{
+    margin-bottom: 5px;
+    font-family: Georgia;
+}
+
+/*taking lines into separete lines*/
+label{
+display: block;
+margin: 0.4rem 0;
+margin-left: 7px;
+}
+
+/*let's arrange the same font style of all form details below the topic*/
+fieldset{
+    font-family: Garamond;
+    border: none;
+}
+
+div{
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%; /*this makes the size of the form in the entire page*/
+    background-color: rgb(22, 80, 128);
+    border: none;
+    color: rgb(230, 221, 221);
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+/*adding some space at the page end and design of the dev which includes the submit button*/
+.submit{
+    margin-bottom: 25px;
+    background-color: rgb(22, 80, 128); /*background color of the div*/
+    margin-top: 10px;
+    width: 5%;
+}
+
+/*design of the submit button*/
+input[type="submit"] {
+    display: block; /*this is the type of the button. it's a block type button*/
+    width: 5%;
+    margin: 1em auto; /*this makes the submit button center*/
+    height: 1.5em;
+    font-size: 1rem;
+    background-color: rgb(22, 80, 128);
+    min-width: 150px; /*length of the submit button*/
+    border-radius: 5px; /*this makes the button endges round*/
+    border: none; /*this removes the border of the button*/
+    color: white;
+    font-family: Garamond;
+    cursor: pointer;
+}
+
+/*changing background color of the input fields*/
+input[type="text"], input[type="email"], input[type="textarea"]{
+    background-color: rgb(33, 98, 151) ;
+    color: white;
+    border: none;
+    height: 25px;
+    margin-top: none;
+    margin-bottom: 13px;
+    width: 95%; /*making the inputs' width 75% of the form width*/
+    font-family: Garamond;
+}
+
+/*changing background color of the input fields*/
+input[type="number"]{
+    background-color: rgb(33, 98, 151);
+    color: white;
+    border: none;
+    height: 25px;
+    margin-top: none;
+    margin-bottom: 13px;
+    width: 8%; /*making the inputs' width 6% the form total width*/
+    font-family: Garamond;
+}
+
+/*changing the backgrond color of the dropdown menu*/
+#dropdown{
+    background-color: rgb(33, 98, 151);
+    border: none;
+    height: 25px;
+    color: white;
+}
+
+/*changing background color of the textarea*/
+textarea{
+    background-color: rgb(33, 98, 151) ;
+    color: white;
+    width: 95%; /*making the textarea width 75% of the form width*/
+    border: none;
+}
+
+.recommendation, .skills{
+    display: inline-block;
+}
+
+select{
+    width: 25%; /*making the inputs' width 25% of the form width*/
+    font-family: Garamond;
+}
